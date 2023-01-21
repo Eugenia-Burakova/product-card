@@ -1,0 +1,10 @@
+html {
+    background-color: rgba(152, 111, 230, 0.2);
+  }
+  .product-img {
+    width: 200px;
+  }
+  .price-output {
+    font-weight: 600;
+    font-size: 20px;
+  }

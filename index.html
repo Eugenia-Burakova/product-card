@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link rel="stylesheet" href="../product-card/styles.css">
+</head>
+
+<body>
+    <div class="product-card">
+
+        <p class="product-name"><b>Apple iPhone 14</b></p>
+        <img class="product-img" src="https://content1.rozetka.com.ua/goods/images/big/284913534.jpg" alt="iphone">
+
+        <div class="product-price">Price: <b>1000$</b></div>
+
+        <div class="product-services">
+            <label for="name">Choose the service:</label>
+
+            <input type="radio" name="service" class="service" id="service1" data-service="200">
+            <label for="service1">Basic (200$)</label>
+
+            <input type="radio" name="service" class="service" id="service2" data-service="300">
+            <label for="service2">Super (300$)</label>
+
+            <input type="radio" name="service" class="service" id="service3" data-service="0">
+            <label for="service3">None (0$)</label>
+        </div>
+
+        <div class="product-guarantee">
+            <label for="name">Choose the guarantee:</label>
+
+            <input type="radio" name="guarantee" class="guarantee" id="guarantee1" data-guarantee="100">
+            <label for="guarantee1">6 months (100$)</label>
+
+            <input type="radio" name="guarantee" class="guarantee" id="guarantee2" data-guarantee="150">
+            <label for="guarantee2">1 year (150$)</label>
+
+            <input type="radio" name="guarantee" class="guarantee" id="guarantee3" data-guarantee="0">
+            <label for="guarantee3">None (0$)</label>
+        </div>
+
+        <div class="total-price"><b>Total price:</b></div>
+        <div class="price-output"></div>
+
+    </div>
+
+    <script src="../product-card/script.js"></script>
+</body>
+
+</html>
